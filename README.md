@@ -10,9 +10,9 @@ Clone this repo, and make sure to run the commands mentioned below from your ter
 
 Make sure Dart Sass is installed - [Link](https://sass-lang.com/install)
 
-Run the following to compile .scss files to .css:
+Run the following to compile .sass files to .css:
 
-    sass src/sass/index.scss src/css/index.css
+    sass src/sass/index.sass src/css/index.css
 
 ## Contact
 
