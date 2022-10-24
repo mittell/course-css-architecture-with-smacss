@@ -7,5 +7,33 @@
 		<title>CSS Architecture with SMACSS</title>
 		<link rel="stylesheet" href="css/index.css" />
 	</head>
-	<body></body>
+	<body>
+		<header id="header">
+			<ul class="nav">
+				<li class="nav--item is-selected">Home</li>
+				<li class="nav--item">Blog</li>
+				<li class="nav--item">Products</li>
+				<li class="nav--search">
+					<input type="search" name="search" id="search" />
+				</li>
+			</ul>
+		</header>
+		<main id="main">
+			<div class="card">
+				<div class="card--label">Test Heading</div>
+				<div class="card--meta">12/12/22</div>
+				<h2 class="card--head">Lorem Ipsum</h2>
+				<p class="card--copy">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+					molestiae iste repudiandae, voluptatibus at sed aliquid non voluptatem
+					assumenda similique?
+				</p>
+				<ul class="card tags">
+					<li class="card tags--tag">ipsum</li>
+					<li class="card tags--tag">lorem</li>
+				</ul>
+			</div>
+		</main>
+		<footer id="footer"></footer>
+	</body>
 </html>
